@@ -29,6 +29,10 @@ header {
                 text-decoration: none;
                 @include mixings.ff-fs-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 font-weight: 500;
+                &:hover{
+                    color: black;
+                    font-weight: 700;
+                }
             }
         }
     }
@@ -63,6 +67,10 @@ header {
                 font-size: 22px;
                 color: white;
                 background-color: variaveis.$cor-secundaria;
+                transition: 0.3s;
+                &:hover{
+                    opacity: 0.5;
+                }
             }
         }
 
